@@ -1,0 +1,38 @@
+.way {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    background-image: url(way.jpg);
+    background-repeat: no-repeat;
+}
+.cloud {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    animation: clouds 2s linear infinite;
+}
+.cloud2 {
+    top: 20px;
+    left: 330px;
+}
+.car {
+    position: absolute;
+    bottom: 50px;
+    animation: drivingcar 2s linear infinite;
+}
+@keyframes drivingcar {
+    from {
+        transform: translateX(0px);
+        }
+    to {
+        transform: translateX(400px);
+        }
+}
+@keyframes clouds {
+    from {
+        transform: translateX(80px);
+        }
+    to {
+        transform: translateX(-200px);
+        }
+}
