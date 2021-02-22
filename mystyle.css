@@ -1,9 +1,17 @@
+div{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
 .way {
     position: relative;
     width: 500px;
     height: 340px;
     background-image: url(way.jpg);
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .cloud {
     position: absolute;
@@ -13,7 +21,11 @@
 }
 .cloud2 {
     top: 20px;
-    left: 330px;
+    left: 250px;
+}
+.cloud3 {
+    top: 60px;
+    left: 430px;
 }
 .car {
     position: absolute;
